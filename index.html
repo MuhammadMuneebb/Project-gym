@@ -7,94 +7,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muneeb Fitnessss</title>
 </head>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Lato:ital,wght@1,100;1,300;1,400;1,700&family=Silkscreen&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Lato:ital,wght@1,100;1,300;1,400;1,700&family=Silkscreen&display=swap"
+    rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <style>
     /* CSS Reset */
-    body{
+    body {
         font-family: 'Silkscreen', cursive;
         color: white;
         margin: 0px;
         padding: 0px;
         background: url('img/man.jpg');
     }
-    .Left{
+
+    .Left {
         display: inline-block;
-border: 2px solid red;
-position: absolute;
-left: 60px;
-top: 20px;
+        border: 2px solid red;
+        position: absolute;
+        left: 60px;
+        top: 20px;
     }
-.Left img{
-    width: 136px;
-    filter: invert(100%);
-}
-.left div{
-    text-align: center;
-    line-height: 12px;
-    font-size: 14px;
-}
-    .Mid{
+
+    .Left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 12px;
+        font-size: 14px;
+    }
+
+    .Mid {
         display: block;
         width: 50%;
         margin: 10px auto;
         border: 2px solid green;
 
     }
-    .Right{
+
+    .Right {
         position: absolute;
         right: 5px;
         top: 20px;
         display: inline-block;
         border: 2px solid yellow;
-        
-    }
-.navbar{
-    display: inline-block;
-}
-.navbar li{
-    display: inline-block;
-    font-size: 25px;
-}
-.navbar li a{
-    color: white;
-    text-decoration: none;
-    padding: 30px 2px;
-}
-.navbar li a:hover, .navbar li a.active{
-    text-decoration: underline;
-    color: gray;
-}
-.btn{
-    font-family: 'Silkscreen', cursive;
-    margin: 0px 9px;
-    background-color: black;
-    color: white;
-    padding: 4px 14px;
-    border: 2px solid gray;
-    border-radius: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
-.btn:hover{
-    background-color: gray;
-}
-.container{
-    border: 2px solid white;
-    margin: 106px 80px;
-    padding: 75px;
-    width: 33%;
-    border-radius: 28px;
 
-}
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 2px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'Silkscreen', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: gray;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+
+    }
 </style>
 
 <body>
     <header class="header">
         <!-- Left box for logo -->
         <div class="left">
-        <img src="img/weight-1399281_960_720.webp" alt="">
-        <div>Muneeb Fitness</div>
+            <img src="img/weight-1399281_960_720.webp" alt="">
+            <div>Muneeb Fitness</div>
         </div>
 
         <!-- Mid box for navbar -->
@@ -109,12 +124,23 @@ top: 20px;
 
         <!-- right box for buttons -->
         <div class="right">
-<button class="btn">Call Us Now</button>
-<button class="btn">Email Us</button>
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
         </div>
     </header>
     <div class="container">
-        Main aik Container hoon
+        <h1>Join the best gym of Karachi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+        </form>
     </div>
 </body>
 
