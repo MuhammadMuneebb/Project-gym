@@ -1,0 +1,111 @@
+body {
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/man.jpg');
+}
+
+.Left {
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.Left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    line-height: 12px;
+    font-size: 14px;
+}
+
+.Mid {
+    display: block;
+    width: 50%;
+    margin: 29px auto;
+    /* border: 2px solid green; */
+
+}
+
+.Right {
+    position: absolute;
+    right: 5px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 2px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.btn {
+    font-family: 'Silkscreen', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.container {
+    /* border: 2px solid white; */
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Silkscreen', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+
+}
